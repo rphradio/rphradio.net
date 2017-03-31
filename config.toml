@@ -1,0 +1,45 @@
+languageCode = "en-us"
+title = "rphradio.net"
+theme = "crab-master"
+baseurl = "http://rphradio.net"
+
+[params]
+description = "Music lounge for r/Philippines."
+
+[[menu.main]]
+weight = 1
+name = "LISTEN NOW"
+url = "/"
+
+[[menu.main]]
+weight = 2
+name = "HOW TO BROADCAST"
+identifier = "howto"
+url = "/intro/"
+  [[menu.main]]
+  parent = "howto"
+  weight = 1
+  name = "Introduction"
+  url = "/intro/"
+  [[menu.main]]
+  parent = "howto"
+  weight = 2
+  name = "Audio Players"
+  url = "/players/"
+  [[menu.main]]
+  parent = "howto"
+  weight = 3
+  name = "Guidelines on live broadcasting"
+  url = "/guidelines/"
+
+
+[[menu.main]]
+weight = 3
+name = "FAQ"
+url = "/faqs/"
+
+
+[[menu.main]]
+weight = 4
+name = "CONTACT"
+url = "/contact/"

@@ -1,0 +1,295 @@
+
+
+html,
+body {
+  background: #ffff;
+  color: #333;
+  font-family: 'Calibri', Calibri;
+  font-size: 18px;
+}
+
+
+
+#container {
+  margin: auto;
+}
+
+#header {
+  margin-top: 2em;
+}
+
+#site-logo {
+  float: right;
+}
+
+#site-title,
+a:link,
+a:active,
+a:visited,
+a:hover {
+  color: #1874B9;
+}
+
+#site-title {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+#site-title a:link,
+#site-title a:active,
+#site-title a:visited,
+#site-title a:hover {
+  text-decoration: none;
+}
+
+#site-slogan,
+#footer {
+  color: #777;
+}
+
+#site-slogan {
+  margin-top: .75em;
+}
+
+nav {
+  clear: both;
+  margin-top: 3em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul.first > li {
+  display: block;
+  margin: .5em 0;
+}
+
+nav ul.second,
+nav ul.third {
+  display: none;
+}
+
+nav a:link,
+nav a:active,
+nav a:visited,
+nav a:hover {
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:active,
+nav a:visited {
+  color: #444;
+}
+
+nav a:hover {
+  color: #1da8be;
+}
+
+#content,
+#footer,
+hr {
+  border-top: 1px dashed #aaa;
+}
+
+#content {
+  margin-top: 2em;
+
+}
+
+#article {
+  margin-top: 2em;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'calibri', calibri;
+  font-weight: 400;
+}
+
+
+
+#article p, #article ol li, #article ul li {
+  text-align: justify;
+}
+
+#article blockquote {
+  font-family: 'calibri', calibri;
+  font-style: italic;
+  font-size: 1.05em;
+  line-height: 1.5em;
+}
+
+#article dl dt {
+  font-weight: bold;
+}
+
+#article dl dt em {
+  font-weight: normal;
+}
+
+hr {
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 2.5em 0;
+}
+
+span.upper {
+  text-transform: uppercase;
+}
+
+img.right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+img.left {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+#footer {
+  clear: both;
+  padding-top: 2em;
+  font-size: 90%;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  #container {
+    width: 950px;
+  }
+
+  nav ul li a {
+    display: block;
+    font-size: 90%;
+  }
+
+  nav ul.first > li {
+    display: inline-block;
+    position: relative;
+    padding-right: 1.25em;
+  }
+
+  nav ul.second,
+  nav ul.third {
+    position: absolute;
+    background: #fff;
+    width: 212px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.25);
+  }
+
+  nav ul.second {
+    z-index: 2;
+  }
+
+  nav ul.third {
+    z-index: 3;
+  }
+
+  nav ul.second li {
+    position: relative;
+  }
+
+  nav ul.third {
+    left: 212px;
+    top: -1px;
+  }
+
+  nav ul.first li:hover ul.second,
+  nav ul.second li:hover ul.third {
+    display: block;
+  }
+
+  nav ul.second li a,
+  nav ul.third li a {
+    padding: 0.75em 1em;
+  }
+
+  #article {
+    width: 576px;
+    position: relative;
+  }
+
+  #summary {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 608px;
+    width: 342px;
+  }
+}
+
+#targets-id {color:#707477
+
+}
+
+.targets-wrapper{
+border: 1px solid #ddd;
+box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.25);
+font-style: bold;
+font-size: 1em;
+text-align: center;
+width: 403px;
+
+
+
+
+
+ }
+
+#live-id {color:#707477
+}
+.live-wrapper{
+border: 1px solid #ddd;
+width: 330px;
+height: 50px
+display:inline-block;
+padding-left:22px;
+min-height:100px;
+vertical-align: middle;
+background-color:#edf5f9;
+border-radius:10px;
+padding:10px 7px 1px 7px;
+font-style: bold;
+font-size: 1em;
+text-align: right;
+
+ }
+
+.fb-share-button span {
+   top: -5px;
+}
+
+.downloadcenter {
+    padding:2px 7px 2px 7px;
+    border: 0.1px solid #1C8ADB;
+    width: 250px;
+    font-size: 0.90em;
+    text-align: center;
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.25);
+    font-family: 'Calibri', Calibri;
+    vertical-align: center;
+    text-decoration: none;
+    color: #10507F;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction: column;
+
+}
+
+
+
+

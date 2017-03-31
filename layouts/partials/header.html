@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Site.Title }}</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
+    {{ .Hugo.Generator }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/crab.css">    <!-- CSS for Crab -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/inlineplayer.css"><!-- CSS for Player -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/flashblock.css"><!-- CSS for Player Flasblock -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/jBox.css"><!-- CSS for jBox -->
+    <script src="{{ .Site.BaseURL }}/js/jquery-3.1.1.min.js"></script><!-- jquery script -->
+    <script src="{{ .Site.BaseURL }}/js/javascript.js"></script><!-- JASON API script for music metadata -->
+    <script src="{{ .Site.BaseURL }}/js/soundmanager2.js"></script><!-- soundmanager2 script -->
+    <script src="{{ .Site.BaseURL }}/js/inlineplayer.js"></script><!-- Player script -->
+    <script src="{{ .Site.BaseURL }}/js/jBox.js"></script> <!-- Modal script -->
+    
+
+  </head>
+  <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><!-- FB share script -->
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <div id="container">
+
+      <div id="header">
+
+	<div id="site-logo">
+	  <img src="{{ .Site.BaseURL }}/img/logo.png">
+        </div>
+
+	<div id="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
+	<div id="site-slogan">{{ .Site.Params.Description }}</div>
+
+      </div>
+
+      {{ partial "menu.html" .Site.Menus.main }}
+
+      <div id="content">
+
+       <div id="article">
+
+     
+
+
+
+

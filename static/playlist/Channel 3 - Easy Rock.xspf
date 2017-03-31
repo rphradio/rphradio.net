@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" version="1">
+  <title/>
+  <creator/>
+  <trackList>
+    <track>
+      <location>http://rphradio.net:8000/mpd3.mp3</location>
+      <title> - Track 16</title>
+      <annotation>Stream Title: channel3 mp3
+Stream Description: Unspecified description
+Content Type:audio/mpeg
+Bitrate: 128
+Current Listeners: 0
+Peak Listeners: 8
+Stream Genre: various</annotation>
+    </track>
+  </trackList>
+</playlist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" version="1">
+  <title/>
+  <creator/>
+  <trackList>
+    <track>
+      <location>http://rphradio.net:8000/mpd7.mp3</location>
+      <title> - </title>
+      <annotation>Stream Title: channel7 mp3
+Stream Description: Unspecified description
+Content Type:audio/mpeg
+Bitrate: 128
+Current Listeners: 1
+Peak Listeners: 7
+Stream Genre: various</annotation>
+    </track>
+  </trackList>
+</playlist>

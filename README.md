@@ -25,7 +25,7 @@ Below are the addresses that you may use when you connect to the broadcast. the 
 
 **Live Channel Addresses and Credentials**
 
-http://rphradio.net:8000/live.mp3
+http://rphradio.net:8000/live.mp3  
 http://rphradio.net:8000/test.mp3
 
 ---------------------
